@@ -1,0 +1,21 @@
+openssl req -x509 -newkey rsa:4096 -nodes -out flaskcert.pem -keyout flaskkey.pem -days 365
+
+Generating a RSA private key
+..................................................................................................++++
+...........................++++
+writing new private key to 'flaskkey.pem'
+-----
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) [AU]:IN
+State or Province Name (full name) [Some-State]:Maha
+Locality Name (eg, city) []:Pune
+Organization Name (eg, company) [Internet Widgits Pty Ltd]:Immoguna
+Organizational Unit Name (eg, section) []:None
+Common Name (e.g. server FQDN or YOUR name) []:Immoguna
+Email Address []:devasood@gmail.com

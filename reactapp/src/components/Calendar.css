@@ -1,0 +1,107 @@
+.Calendar {
+   width: 100%;
+   margin-top: 3vw;
+}
+
+.Monthly {
+   display: flex;
+   flex-direction: column;
+}
+
+.Weekly {
+   display: flex;
+   flex-direction: column;
+}
+
+.Week {
+   display: flex;
+   flex-direction: row;
+}
+
+.CalendarMonth {
+   width: 100%;
+}
+
+.PastCalendarDay {
+   padding-top: 1vw;
+   padding-left: 1vw;
+   width: 15vw;
+   height: 4vw;
+   min-height: 4vw;
+   max-height: 4vw;
+   font-size: 1vw;
+   display: flex;
+   flex-direction: column;
+   background-color: red;
+   margin-right: 1px;
+   margin-bottom: 1px;
+
+}
+
+.TodayCalendarDay {
+   padding-top: 1vw;
+   padding-left: 1vw;
+   width: 15vw;
+   height: 4vw;
+   min-height: 4vw;
+   max-height: 4vw;
+   font-size: 1vw;
+   display: flex;
+   flex-direction: column;
+   background-color: blue;
+   margin-right: 1px;
+   margin-bottom: 1px;
+}
+
+.FutureCalendarDay {
+   padding-top: 1vw;
+   padding-left: 1vw;
+   width: 15vw;
+   height: 4vw;
+   min-height: 4vw;
+   max-height: 4vw;
+   font-size: 1vw;
+   display: flex;
+   flex-direction: column;
+   background-color: green;
+   margin-right: 1px;
+   margin-bottom: 1px;
+}
+
+.DisabledCalendarDay {
+   padding-top: 1vw;
+   padding-left: 1vw;
+   width: 15vw;
+   height: 5vw;
+   min-height: 4vw;
+   max-height: 4vw;
+   font-size: 1vw;
+   opacity: 0.2;
+   z-index: -1;
+   margin-right: 1px;
+   margin-bottom: 1px;
+}
+
+.MonthLabel {
+   margin-top: 2vw;
+   text-align: center;
+   font-size: 4vw;
+   margin-bottom: 2vw;
+}
+
+.DayOfWeekLabel {
+   display: flex;
+   flex-direction: row;
+}
+
+.WeekDayLabel {
+   padding-top: 1vw;
+   padding-left: 1vw;
+   width: 15vw;
+   height: 5vw;
+   min-height: 4vw;
+   max-height: 4vw;
+   font-size: 3vw;
+   margin-right: 1px;
+   margin-bottom: 1px;
+}

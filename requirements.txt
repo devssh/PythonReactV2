@@ -1,0 +1,4 @@
+Flask
+pyscopg2
+python-dotenv
+pyopenssl

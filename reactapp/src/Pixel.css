@@ -1,0 +1,13 @@
+.PixelBox {
+ border: 1px solid white;
+ width: 1700px;
+ height: 960px;
+ overflow: scroll;
+ overscroll-behavior: none;
+}
+
+.PixelBox::-webkit-scrollbar {
+ display: none;
+}
+
+

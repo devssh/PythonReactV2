@@ -1,0 +1,128 @@
+
+.DayProgressBar {
+   width: 100%;
+   overflow: scroll;
+   margin-top: 1vw;
+}
+
+.DayProgressCompletedBoxLine {
+   display: flex;
+   flex-direction: row;
+   margin-left: 2.5vw;
+}
+
+.DayProgressAvailableBoxLine {
+   display: flex;
+   flex-direction: row;
+}
+
+.DayProgressHourLegend {
+   display: flex;
+   flex-direction: column;
+   font-size: 1.5vw;
+}
+
+.DayProgressHourLegend1 {
+   margin-left: calc(2.5vw - 1px);
+   display: flex;
+   flex-direction: row;
+   font-size: 1.5vw;
+}
+
+.DayProgressHourLegend2 {
+   display: flex;
+   flex-direction: row;
+   font-size: 1.5vw;
+}
+
+.DayProgressHourMarkerLabel1 {
+   height: 1vw;
+   min-height: 1vw;
+   width: 1.25vw;
+   min-width: 1.25vw;
+   text-align: left;
+   font-size: 1vw;
+}
+
+.DayProgressHourMarkerLabel2 {
+   height: 1vw;
+   min-height: 1vw;
+   width: 1.25vw;
+   min-width: 1.25vw;
+   text-align: left;
+   font-size: 0.5vw;
+}
+
+.DayProgressHourMarkerLabel3 {
+   height: 1vw;
+   min-height: 1vw;
+   width: 1.25vw;
+   min-width: 1.25vw;
+   text-align: left;
+   font-size: 0.75vw;
+}
+
+.DayProgressHourMarkerLabel4 {
+   height: 1vw;
+   min-height: 1vw;
+   width: 1.25vw;
+   min-width: 1.25vw;
+   margin-right: 1px;
+   text-align: left;
+   font-size: 0.5vw;
+}
+.DayProgressHourLabel {
+   height: 3vw;
+   min-height: 3vw;
+   width: 5vw;
+   min-width: 5vw;
+   margin-right: 1px;
+   text-align: center;
+}
+
+.DayProgressCompletedBox {
+   background-color: green;
+   width: 5vw;
+   min-width: 5vw;
+   height: 3vw;
+   margin-right: 1px;
+}
+
+.DayProgressAvailableBox {
+   background-color: navajowhite;
+   width: 5vw;
+   min-width: 5vw;
+   height: 3vw;
+   margin-right: 1px;
+}
+
+.DayProgressCompletedBoxSlice1 {
+   background-color: green;
+   height: 3vw;
+   margin-right: 1px;
+}
+
+.DayProgressAvailableBoxSlice1 {
+   background-color: navajowhite;
+   height: 3vw;
+   margin-right: 1px;
+}
+
+.VerticalLabelDayProgress {
+   width: 5vw;
+   min-width: 5vw;
+   height: 1vw;
+   margin-right: 1px;
+}
+
+.DayProgressVerticalBoxLine {
+   display: flex;
+   flex-direction: row;
+}
+
+.VerticalLabelDayProgressText {
+   font-size: 1vw;
+   width: 7vw;
+   min-width: 7vw;
+   text-align: center;
+}

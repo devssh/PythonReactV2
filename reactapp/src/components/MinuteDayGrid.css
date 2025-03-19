@@ -1,0 +1,93 @@
+.DayGrid {
+   margin-top: 1vw;
+   width: 100%;
+   overflow: scroll;
+}
+
+.NotchMark {
+   height: 1.5vw;
+   padding-top: 0.3vw;
+   width: 1vw;
+   margin-top: 1px;
+   font-size: 1vw;
+   text-align: center;
+   color: white;
+}
+
+.LeftMarkers {
+   margin-top: 1px;
+}
+
+.RightMarkers {
+   margin-top: 1px;
+}
+
+.MinuteBoxPast {
+   height: 1.5vw;
+   padding-top: 0.3vw;
+   width: 4vw;
+   background-color: red;
+   margin-top: 1px;
+   margin-left: 1px;
+   margin-right: 1px;
+   font-size: 1vw;
+   text-align: center;
+   opacity: 0.8;
+   z-index: -1;
+}
+
+.MinuteBoxPresent {
+   height: 1.5vw;
+   padding-top: 0.3vw;
+   width: 4vw;
+   background-color: blue;
+   margin-top: 1px;
+   margin-left: 1px;
+   margin-right: 1px;
+   font-size: 1vw;
+   text-align: center;
+}
+
+.MinuteBoxRemaining {
+   height: 1.5vw;
+   padding-top: 0.3vw;
+   width: 4vw;
+   background-color: green;
+   margin-top: 1px;
+   margin-left: 1px;
+   margin-right: 1px;
+   font-size: 1vw;
+   text-align: center;
+}
+
+.HourColumn {
+   display: flex;
+   flex-direction: column-reverse;
+}
+
+.HourLegend {
+   display: flex;
+   flex-direction: row;
+   margin-left: 1vw;
+}
+
+.HourMarker {
+   font-size: 1.3vw;
+   width: 4vw;
+   min-width: 4vw;
+   height: 1.7vw;
+   padding-top: 0.3vw;
+   margin-top: 1px;
+   margin-left: 1px;
+   margin-right: 1px;
+   text-align: center;
+
+}
+
+.BottomBorderBox {
+   margin-bottom: 2px;
+}
+
+.LeftBorderBox {
+   margin-left: 2px;
+}

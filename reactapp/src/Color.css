@@ -1,0 +1,13 @@
+.PaletteBox {
+	min-height: 2vw;
+	min-width: 5vw;
+	font-size: 1.5vw;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+}
+
+.RGBPaletteBox {
+	width: 100%;
+	overflow: scroll;
+}

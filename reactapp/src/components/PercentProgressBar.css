@@ -1,0 +1,80 @@
+.DayProgress {
+   margin-top: 1vw;
+   width: 100%;
+}
+
+.ProgressTopMarker {
+   display: flex;
+   flex-direction: row;
+}
+
+.ProgressBar {
+   display: flex;
+   flex-direction: row;
+}
+
+.ProgressBottomMarker {
+   display: flex;
+   flex-direction: row;
+}
+
+.Labels {
+   display: flex;
+   flex-direction: row;
+}
+
+.VerticalLabel {
+   height: 1.2vw;
+   width: 4vw;
+   margin-right: 1px;
+}
+
+.VerticalLabelText {
+   text-align: center;
+   font-size: 1vw;
+   width: 4vw;
+}
+
+.Cuts {
+   height: 1.2vw;
+   width: 4vw;
+   text-align: right;
+   font-size: 1vw;
+   margin-right: 1px;
+}
+
+.ProgressCompletion {
+   display: flex;
+   flex-direction: row;
+}
+
+.ProgressAvailable {
+   display: flex;
+   flex-direction: row;
+}
+
+.ProgressBox {
+   height: 3vw;
+   background-color: navajowhite;
+   width: 4vw;
+   margin-right: 1px;
+}
+
+.CompletedProgressBox {
+   height: 3vw;
+   background-color: green;
+   width: 4vw;
+   margin-right: 1px;
+}
+
+.ProgressBoxSlice1 {
+   height: 3vw;
+   background-color: navajowhite;
+   margin-right: 1px;
+}
+
+.CompletedProgressBoxSlice1 {
+   height: 3vw;
+   background-color: green;
+   margin-right: 1px;
+}

@@ -1,0 +1,26 @@
+.Header {
+    text-align: center;
+    background-color: royalblue;
+    color: ghostwhite;
+    font-size: 4vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.Body > div {
+   padding: 0.5vw;
+}
+
+.Body {
+   display: flex;
+   flex-direction: column;
+
+}
+
+.Page {
+   word-break: break-all;
+   margin-top: 6vw;
+}
+
+

@@ -1,0 +1,34 @@
+PGPASSWORD=test psql -U test
+
+CREATE ROLE metrics WITH
+	LOGIN
+	SUPERUSER
+	CREATEDB
+	CREATEROLE
+	INHERIT
+	REPLICATION
+	CONNECTION LIMIT -1
+	PASSWORD 'V2LCjNWBhiYTBT9gr6N9';
+
+CREATE DATABASE metrics
+    WITH
+    OWNER = metrics
+    ENCODING = 'UTF8'
+    CONNECTION LIMIT = -1
+    IS_TEMPLATE = False;
+
+
+PGPASSWORD=V2LCjNWBhiYTBT9gr6N9 psql -U metrics
+
+CREATE SCHEMA metrics
+    AUTHORIZATION metrics;
+
+CREATE TABLE metrics.test
+(
+NAME TEXT PRIMARY KEY NOT NULL,
+ID INT NOT NULL
+)
+;
+
+insert into metrics.test values ('ram', 1);
+insert into metrics.test values ('dev', 2);
