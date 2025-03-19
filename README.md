@@ -6,26 +6,52 @@ Rapid development was not exactly in mind, but ended up limited to one person fo
 
 Copy files between the two servers for communication model
 
+
+
+
 Python
+
 app.py
+
 networkserver.py
+
 restart.sh
+
 run.sh
+
 runClonePython.sh
+
 runLog.sh
 
 Ignored Python
+
 metricserver.py
+
 fileserver.py
 
+
+
+
 React
+
 package.json
+
 scripts/start.js
+
 restart.sh
+
 run.sh
+
 runCloneReact.sh
+
 runLog.sh
 
+
+
+
+
 Ignored React
+
 src/AppService.js
+
 src/components/ReduxUtilFunctions.js
